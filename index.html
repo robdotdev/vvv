@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WikiRo</title>
+  </head>
+  <body>
+    <section id="container">
+      <div class="cstanga">
+        <div class="cstanga__logo">
+          <img src="img/WR.png" alt="logo" />
+        </div>
+        <div class="cstanga__cauta">
+          <div class="cardcauta">
+            <img src="img/searchimg.svg" alt="search img" />
+            <h1>Wiki România</h1>
+            <h2>Enciclopedia liberă</h2>
+            <div class="cardcauta__input">
+              <input
+                type="text"
+                class="inputsearch"
+                placeholder="Caută articol aici..."
+              />
+            </div>
+          </div>
+          <h4>sau</h4>
+          <h3>Alege o categorie</h3>
+        </div>
+        <div class="cstanga__categorii">
+          <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1>Alege un articol</h1>
+            <div class="articole">
+              <a href="pagini/mihaieminescu.html">
+                <div class="articole__card">
+                  <img src="img/eminescu3.png" alt="eminescu" />
+                  <h3>Mihai Eminescu</h3>
+                </div>
+              </a>
+              <a href="pagini/eliade.html">
+                <div class="articole__card">
+                  <img src="img/eliade.png" alt="eliade" />
+                  <h3>Mircea Eliade</h3>
+                </div>
+              </a>
+              <a href="pagini/caragiale.html">
+                <div class="articole__card">
+                  <img src="img/caragiale.png" alt="caragiale" />
+                  <h3>I.L. Caragiale</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="overlay hidden"></div>
+          <div class="catbtn show-modal">
+            <h2>Scriitori</h2>
+            <div class="catbtn__count">3</div>
+          </div>
+          <div class="catbtn">
+            <h2>Conducători</h2>
+            <div class="catbtn__count">0</div>
+          </div>
+          <div class="catbtn">
+            <h2>Muzicieni</h2>
+            <div class="catbtn__count">0</div>
+          </div>
+          <div class="catbtn">
+            <h2>Inventatori</h2>
+            <div class="catbtn__count">0</div>
+          </div>
+          <div class="catbtn">
+            <h2>Pictori</h2>
+            <div class="catbtn__count">0</div>
+          </div>
+        </div>
+        <div class="cstanga__topcautari">
+          <h2>Top căutări astăzi</h2>
+          <div class="cards">
+            <div class="topcard">
+              <a href="pagini/brancusi.html">
+                <img src="img/brimg.png" alt="top img"
+              /></a>
+              <a href="pagini/brancusi.html"><h2>Constantin Brâncuși</h2></a>
+              <div class="topcard__cardcount">
+                <img src="img/eyeicon.svg" alt="eye icon" />
+                <h4>100k</h4>
+              </div>
+            </div>
+            <div class="topcard">
+              <a href="pagini/enescu.html"
+                ><img src="img/geimg.png" alt="top img"
+              /></a>
+              <a href="pagini/enescu.html"> <h2>George Enescu</h2></a>
+              <div class="topcard__cardcount">
+                <img src="img/eyeicon.svg" alt="eye icon" />
+                <h4>54k</h4>
+              </div>
+            </div>
+            <div class="topcard">
+              <a href="pagini/vadim.html"
+                ><img src="img/corimg.png" alt="top img"
+              /></a>
+              <a href="pagini/vadim.html"><h2>Corneliu Vadim Tudor</h2></a>
+              <div class="topcard__cardcount">
+                <img src="img/eyeicon.svg" alt="eye icon" />
+                <h4>29k</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cdreapta">
+        <img src="img/mihaieminescu.png" alt="" />
+        <div class="stiaica">
+          <img src="img/becicon.svg" alt="bec icon" />
+          <h3>Știai că?</h3>
+        </div>
+        <div class="title">Mihai Eminescu</div>
+        <div class="timer">
+          <img src="img/timericon.png" alt="timer icon" />
+          <h4>2min</h4>
+        </div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <a href="pagini/mihaieminescu.html"
+          ><div class="btn">Citește tot articolul</div></a
+        >
+      </div>
+    </section>
+  </body>
+  <script src="scripts.js"></script>
+</html>
